@@ -46,3 +46,51 @@ while fromIndex <= maxIndex:
     if fromIndex % rowNum == 0:
         print()
     fromIndex += 1
+"""
+while 语句注意事项:
+  要控制循环真值表达式的值来防止死循环
+  通常用真值表达式内的循环变量来控制循环条件
+  通常在循环语句块内改变循环变量来控制循环次数和变量走向
+
+while 语句的嵌套
+  while 语句本身是语句,和其它语句一样,可以嵌套到任何复合语句中
+
+示意:
+  while 真值表达式:
+      ...
+      while 真值表达式2:
+          ...
+      else:
+          ...
+  else:
+      ...
+
+"""
+
+# 练习:
+# 输入一个整数代表正方形的宽度,用变量n绑定,
+# 打印指定宽度的正方形
+sideLen = int(input("请输入正方形的边长:"))
+for i in range(1,sideLen+1):
+    for y in range(1,sideLen+1):
+        print(y, end=' ')
+    print()
+"""
+
+break 语句
+  作用:
+    用于循环语句(while, for语句)中,用来终止当前循环语句的执行
+  语法:
+    break
+  说明:
+    1. 当break语句执行后,此循环语句break之后的语句将不再执行
+    2. break语句通常和if语句组合使用
+    3. break语句终止循环时else子句的语句将不会执行
+    4. break语句只能终止当前循环语句的执行,如果有循环嵌套时,不会跳出嵌套的外重循环
+
+  死循环
+    死循环是指条件一直成立的循环
+    死循环通常用break语句来终止循环
+    死循环的else子句永远不会执行
+
+"""
