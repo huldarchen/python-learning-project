@@ -6,6 +6,7 @@
 2. 列表 list
 3. 元组 tuple
 4. 字典 dict
+5. 集合 set
 
 ## day01-**logicalStatement** (Python逻辑语句)
 

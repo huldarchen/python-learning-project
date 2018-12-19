@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/day01-dataType/day01-dataType.iml" filepath="$PROJECT_DIR$/day01-dataType/day01-dataType.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01-logicalStatement/day01-logicalStatement.iml" filepath="$PROJECT_DIR$/day01-logicalStatement/day01-logicalStatement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day02-function/day02-function.iml" filepath="$PROJECT_DIR$/day02-function/day02-function.iml" />
     </modules>
   </component>
 </project>

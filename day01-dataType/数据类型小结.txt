@@ -1,0 +1,45 @@
+1. 数据类型:
+  数值类型：
+    int, float, complex, bool
+  容器:
+    不可变的容器
+      str, tuple, frozenset, bytes(字节串)
+    可变的容器
+      list, dict, set, bytearray(字节数组)
+2.值:
+    None, False, True
+3. 运算符
+  算术运算符
+    + - * /  //  %  **
+  比较运算符:
+    < <= > >= == !=
+  in / not in
+  is, is not
+  布尔运算:
+    not, and, or
+  +(正号) -(负号)
+  & | ^
+  [] (索引,切片,键索引)
+4. 表达式:
+  1
+  1 + 2
+  max(1,2,3)  # 函数调用是表达式
+  x if x > y else y, 条件表达式
+  三种推导式:
+    列表，字典，集合推导式(三种)
+5. 内建函数
+  len(x), max(x), min(x), sum(x), any(x), all(x)
+  构造函数(用来创建同类型的数据对象)
+    bool(x), int(x), float(x), complex(x),
+    list(x), tuple(x), str(x), dict(x), set(x),
+    frozenset(x)
+  abs(x)
+  round(x)
+  pow(x, y, z=None)
+
+  bin(x), oct(x), hex(x)
+  chr(x), ord(x)
+  range(start, stop, step)
+  input(x), print(x)
+
+  >>> help(__builtins__)
