@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/day01-dataType/day01-dataType.iml" filepath="$PROJECT_DIR$/day01-dataType/day01-dataType.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01-logicalStatement/day01-logicalStatement.iml" filepath="$PROJECT_DIR$/day01-logicalStatement/day01-logicalStatement.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02-function/day02-function.iml" filepath="$PROJECT_DIR$/day02-function/day02-function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day03-spider-base/day03-spider-base.iml" filepath="$PROJECT_DIR$/day03-spider-base/day03-spider-base.iml" />
     </modules>
   </component>
 </project>
